@@ -5,8 +5,13 @@ const grid = document.getElementById('grid')
 for (let i = 0; i < 100; i++) {
     //creo il singolo quadrato
     let currentSquare = document.createElement('div')
+
     // gli metto il numero progressivo
     currentSquare.innerText = i + 1;
+    
+    //assegnazione della classe square all'elemento creato
+    currentSquare.classList.add('square')
+
     // appendo il quadrato appena creato all'interno della griglia presa precedentemente
     grid.append(currentSquare);
 }
