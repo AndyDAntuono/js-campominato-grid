@@ -22,6 +22,10 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 *html*
 1 - creo un layout idoneo all risoluzione dell'esercizio, avvalendomi delle apposite clasee reperibili tramite un link con boostrap 5.3;
 2 - creo una sezione header in cui contentenere il logo di Bollean, le parole "Campo Minato" e un tasto "gioca";
+2.1 - usando le classi di boostrap 5.3, creo prima un container, una row e un col-12 nella sezione headr;
+2.2 - divido a sua volta il col 12 in due col-6;
+2.2.1 - in quello di sinistra ci metto il logo di boolean e le parole "campo minato";
+2.2.2 - in quello di destra inserisco un pulsante che permetterà di avviare la funzione di gioco attraverso il file script.js;
 3 - creo sezione main che ospiterà la griglia da 100 quadrati;
 4- creo una sezione footer che conterra (in fondo a sinistra) la frase "Made with by Boolean"
 
