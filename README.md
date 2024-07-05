@@ -29,6 +29,18 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 3 - creo sezione main che ospiterà la griglia da 100 quadrati;
 4- creo una sezione footer che conterra (in fondo a sinistra) la frase "Made with by Boolean"
 
+*css*
+1 - faccio in modo che il div id abbia le seguenti proprietà
+    
+    max-width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    poiché nella consegna non è specificato che il content di #grid debba essere responsivo;
+
+
 *js*
 1 - recupero l'elemento che conterrà la mia griglia
 2 - esegue un ciclo di 100 interazioni per creare una griglia 10x10
