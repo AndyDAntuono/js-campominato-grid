@@ -16,3 +16,18 @@ Ad esempio:
 Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+/*SOLUZIONE*/
+
+*html*
+1 - creo un layout idoneo all risoluzione dell'esercizio, avvalendomi delle apposite clasee reperibili tramite un link con boostrap 5.3;
+2 - creo una sezione head in cui contentenere il logo di Bollean, le parole "Campo Minato" e un tasto "gioca";
+3 - creo sezione main che ospiterà la griglia da 100 quadrati;
+4- creo una sezione footer che conterra (in fondo a sinistra) la frase "Made with by Boolean"
+
+*js*
+1 - recupero l'elemento che conterrà la mia griglia
+2 - esegue un ciclo di 100 interazioni per creare una griglia 10x10
+2.1 - creo il sngolo quadrato
+2.2 - gli metto il numero pogressivo
+2.3 appendo il quadrato appena creato alli'interno della griglia predentemene
