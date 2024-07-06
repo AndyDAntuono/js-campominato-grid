@@ -1,5 +1,14 @@
-// recupero l'elemento che conterrà la mia griglia
-const grid = document.getElementById('grid')
+// definizione della funzione che mi crea i quadrati della griglia
+function createSquare() {
+    let currentElement = document.createElement('div');
+    
+    // asegnazione della classe square all'elemento creato
+    currentElement.classList.add('square')
+
+    // recupero l'elemento che conterrà la mia griglia
+    const grid = document.getElementById('grid')
+}
+
 
 // eseguo un ciclo di 100 iterazioni per creare una griglia 10x10
 for (let i = 0; i < 100; i++) {
