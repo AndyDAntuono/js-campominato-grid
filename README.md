@@ -42,11 +42,14 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 
 
 *js*
-1 - definisco la funzione che mi crea i qiadrati della griglia
+1 - definisco la funzione che mi crea i quadrati della griglia
 1.1 - assegno la classe square all'elemento creato
 1.2 - restituisco il quadrato contenuto nella variabile currentElement
 2 - recupero l'elemento che conterrà la mia griglia
 3 - eseguo un ciclo di 100 interazioni per creare una griglia 10x10
-3.1 - creo il sngolo quadrato
-3.2 - gli metto il numero pogressivo
-3.3 appendo il quadrato appena creato alli'interno della griglia precedentemente
+3.1 - creo il sngolo quadrato chiamando la funzione createSquare;
+3.2 - aggiungo un evento "click" a currentSquare e gli associo una funzione anonima;
+3.3 - all'evento click associo la parola chiave this
+3.4 - a this associo una classe css "clicked "che si attiva al click del mouse dell'utente:
+4 - gli metto il numero pogressivo
+5 -  appendo il quadrato appena creato alli'interno della griglia precedentemente
