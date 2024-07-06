@@ -12,8 +12,13 @@ function createSquare() {
 
 // eseguo un ciclo di 100 iterazioni per creare una griglia 10x10
 for (let i = 0; i < 100; i++) {
-    //creo il singolo quadrato
-    let currentSquare = document.createElement('div')
+    //creo il sngolo quadrato chiamando la funzione createSquare
+    let currentSquare = createSquare();
+
+    currentSquare.addEventLitener('click', function () {
+        console.log(this)
+        this.classList.toggle('clicked')
+    })
 
     // gli metto il numero progressivo
     currentSquare.innerText = i + 1;
