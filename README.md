@@ -42,8 +42,11 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 
 
 *js*
-1 - recupero l'elemento che conterrà la mia griglia
-2 - esegue un ciclo di 100 interazioni per creare una griglia 10x10
-2.1 - creo il sngolo quadrato
-2.2 - gli metto il numero pogressivo
-2.3 appendo il quadrato appena creato alli'interno della griglia precedentemente
+1 - definisco la funzione che mi crea i qiadrati della griglia
+1.1 - assegno la classe square all'elemento creato
+1.2 - restituisco il quadrato contenuto nella variabile currentElement
+2 - recupero l'elemento che conterrà la mia griglia
+3 - eseguo un ciclo di 100 interazioni per creare una griglia 10x10
+3.1 - creo il sngolo quadrato
+3.2 - gli metto il numero pogressivo
+3.3 appendo il quadrato appena creato alli'interno della griglia precedentemente
