@@ -21,3 +21,8 @@
     background-color: aquamarine;
     border: 1px solid black;
 }
+
+.clicked {
+    background-color: red;
+    color: white;
+}
