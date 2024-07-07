@@ -30,7 +30,7 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 4- creo una sezione footer che conterra (in fondo a sinistra) la frase "Made with by Boolean"
 
 *css*
-1 - faccio in modo che il div id abbia le seguenti proprietà
+1 - imposto che il  div #grid abbia le seguenti proprietà
     
     max-width: 1200px;
     height: 1200px;
@@ -39,6 +39,21 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
     flex-wrap: wrap;
 
     poiché nella consegna non è specificato che il content di #grid debba essere responsivo;
+
+2 - imposto che .square abbia le seguenti proprietà
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: aquamarine;
+    border: 1px solid black;
+
+3 - imposto che .clicked abbia le seguenti proprietà
+
+    background-color: red;
+    color: white;
 
 
 *js*
@@ -51,5 +66,5 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 3.2 - aggiungo un evento "click" a currentSquare e gli associo una funzione anonima;
 3.3 - all'evento click associo la parola chiave this
 3.4 - a this associo una classe css "clicked "che si attiva al click del mouse dell'utente:
-4 - gli metto il numero pogressivo
-5 -  appendo il quadrato appena creato alli'interno della griglia precedentemente
+3.5 - gli metto il numero pogressivo
+3.6 -  appendo il quadrato appena creato alli'interno della griglia precedentemente

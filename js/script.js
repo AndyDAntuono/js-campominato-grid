@@ -20,7 +20,7 @@ const grid = document.getElementById('grid')
 //assegno l'evento click al pulsante recuperato dal dom
 btn.addEventListener('click', function() {
     // eseguo un ciclo di 100 iterazioni per creare una griglia 10x10
-for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 100; i++) {
     //creo il sngolo quadrato chiamando la funzione createSquare
     let currentSquare = createSquare();
 
