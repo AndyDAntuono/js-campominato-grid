@@ -28,6 +28,7 @@ for (let i = 0; i < 100; i++) {
     currentSquare.addEventListener('click', function () {
         console.log(this);
         this.classList.toggle('clicked');
+        console.log(`Hai cliccato sul quadrato numero ${i + 1}`)
     });
 
     // gli metto il numero progressivo
@@ -37,4 +38,3 @@ for (let i = 0; i < 100; i++) {
     grid.append(currentSquare);
 }
 })
-
